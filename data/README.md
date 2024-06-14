@@ -13,8 +13,17 @@ Besides that data, it also includes 14,200 real-images that were used for traini
 **Figshare dataset** contains 6,000 raw data western blots collected from Figshare repository. 
 To collect the data, we used the [Figshare API](https://help.figshare.com/article/how-to-use-the-figshare-api), and then extracted the western blots from each downloaded image, using the panel extractor proposed by Cardenuto et al. [2] available at https://github.com/phillipecardenuto/upm/tree/main/panel-extractor.
 
+For each collected image, we include its metadata in the (fold1,fold2)_metadata.csv included in the zip file.
 
-The collected dataset is organized in fold1 and fold2, to facilitate the cross-validation protocol.
+The metadata includes information such as:
+- Figure URL
+- MD5 (used during figure download)
+- Image Name (name of the file used in our collection)
+- License (All collected figures are under CC-BY 4.0)
+
+
+
+To facilitate the cross-validation protocol, The collected dataset is organized in fold1 and fold2.
 
 
 After downloading and unzipping each dataset, please organize them as following:
