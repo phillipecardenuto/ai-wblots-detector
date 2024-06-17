@@ -1,9 +1,5 @@
 # Exploring Explainable Features for AI Western Blot Detection
 
-
-
-
-
 **TL;DR:** This repository provides an analysis and implements various explainable features to detect AI-generated Western blots. It also explores how to attribute these AI-generated Western blots to the models that produced them.
 
 The ease of using generative AI models has enabled non-experts in computer science to create their own data. While these models have many beneficial applications, there is a serious concern in the scientific community about their use in generating fake images and texts.
@@ -46,15 +42,8 @@ Run the following commands in the /exps directory.
 
    After running this command, you should see `closed_set`, `open_set`, and `attribution` CSV files containing the results for each type of residuum extraction and each feature explored during our experiments.
 
-
-
-
-
 ### Citation
-
-
-
-
+TODO : Include citation
 
 ### Contact
 
