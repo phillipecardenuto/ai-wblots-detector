@@ -8,30 +8,24 @@ This is the simplest scenario among all experiments.
 Authors: Joao Phillipe Cardenuto.
 Date: April, 2024
 """
-
-import os
-import numpy as np
-import pandas as pd
-from typing import List
-import sys
-from tqdm.contrib.concurrent import thread_map
-from tqdm import tqdm
-
+# Models
 from xgboost import XGBClassifier
 from sklearn.svm import SVC
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.preprocessing import LabelEncoder
-
+# Metrics
 from sklearn.metrics import roc_auc_score
 from sklearn.decomposition import PCA
 from sklearn.metrics import balanced_accuracy_score, f1_score
-
+# Utils
 from sklearn.preprocessing import label_binarize
 import concurrent.futures
 import argparse
-
 from  exputils import cross_val_split, cross_domain_split
 from exputils import read_features
+import numpy as np
+import pandas as pd
+from tqdm import tqdm
 # Set seed
 SEED=0
 np.random.seed(SEED)
