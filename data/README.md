@@ -24,10 +24,6 @@ The metadata includes information such as:
 - License (All collected figures are under CC-BY 4.0)
 
 
-
-
-
-
 After downloading and unzipping each dataset, please organize them as following:
 ```
 .
