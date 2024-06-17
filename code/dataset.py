@@ -10,8 +10,8 @@ import numpy as np
 class Dataset():
     """ Creates a train and test dataset."""
     DATAPATH = "../data/access-2022/western_blots_dataset/"
-    FIGSHARE_DATAPATH_FOLD1 = "../data/fold1/"
-    FIGSHARE_DATAPATH_FOLD2 = "../data/fold2/"
+    FIGSHARE_DATAPATH_FOLD1 = "../data/figshare/fold1/"
+    FIGSHARE_DATAPATH_FOLD2 = "../data/figshare/fold2/"
 
 
     def __init__(self, n_samples=-1, seed=42,  train_size=0.5,
