@@ -131,9 +131,9 @@ def parallel_training(split1, split2, classifier):
                                     "auc_mean", "auc_std"])
     def train_filter(filter):
         scores = train_classifier_cv(split1.copy(), split2.copy(), filter, classifier)
-        return [classifier.__class__.__name__, filter, scores["f1_mean"],
-                scores["f1_std"], scores["bcc_mean"], scores["bcc_std"], scores["auc_mean"],
-                scores["auc_std"]]
+        return [classifier.__class__.__name__, filter,
+                 scores["bcc_mean"], scores["bcc_std"],
+                 scores["auc_mean"], scores["auc_std"]]
     local_filters = [f for f in FILTERS if f in split1.columns]
     with concurrent.futures.ThreadPoolExecutor() as executor:
         future_to_filter = {executor.submit(train_filter, filter): filter for filter in local_filters}
