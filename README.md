@@ -43,8 +43,17 @@ Run the following commands in the /exps directory.
    After running this command, you should see `closed_set`, `open_set`, and `attribution` CSV files containing the results for each type of residuum extraction and each feature explored during our experiments.
 
 ### Citation
-TODO : Include citation
-
+```
+@misc{cardenuto2024explainable,
+  eprint={2409.18881},
+  url = {https://arxiv.org/abs/2409.18881},
+  year = {2024},
+  month = oct,
+  archivePrefix={arXiv},
+  author = {Jo{\~{a}}o Phillipe Cardenuto and Sara Mandelli and Daniel Moreira and Paolo Bestagini and Edward Delp and Anderson Rocha},
+  title = {Explainable Artifacts for Synthetic Western Blot Source Attribution}
+}
+```
 ### Contact
 
 If you find any issues or bugs, or want to discuss the methods and possible improvements for detecting AI-generated scientific images, please do not hesitate to open an issue.
