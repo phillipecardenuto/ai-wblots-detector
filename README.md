@@ -44,15 +44,16 @@ Run the following commands in the /exps directory.
 
 ### Citation
 ```
-@misc{cardenuto2024explainable,
-  eprint={2409.18881},
-  url = {https://arxiv.org/abs/2409.18881},
-  year = {2024},
-  month = oct,
-  archivePrefix={arXiv},
-  author = {Jo{\~{a}}o Phillipe Cardenuto and Sara Mandelli and Daniel Moreira and Paolo Bestagini and Edward Delp and Anderson Rocha},
-  title = {Explainable Artifacts for Synthetic Western Blot Source Attribution}
-}
+@inproceedings{cardenuto2024Explainable,
+  author={Cardenuto, João P. and Mandelli, Sara and Moreira, Daniel and Bestagini, Paolo and Delp, Edward and Rocha, Anderson},
+  booktitle={2024 IEEE International Workshop on Information Forensics and Security (WIFS)}, 
+  title={Explainable Artifacts for Synthetic Western Blot Source Attribution}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-6},
+  keywords={Forensics;Conferences;Paper mills;Closed box;Organizations;Generative adversarial networks;Diffusion models;Security;Convolutional neural networks;Fake news;Western blots;synthetically generated images;image forensics;source attribution;scientific integrity},
+  doi={10.1109/WIFS61860.2024.10810680}}
 ```
 ### Contact
 
